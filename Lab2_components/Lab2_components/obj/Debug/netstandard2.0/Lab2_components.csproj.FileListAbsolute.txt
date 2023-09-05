@@ -1,0 +1,15 @@
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/bin/Debug/netstandard2.0/Lab2_components.deps.json
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/bin/Debug/netstandard2.0/Lab2_components.dll
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/bin/Debug/netstandard2.0/ref/Lab2_components.dll
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/bin/Debug/netstandard2.0/Lab2_components.pdb
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.csproj.AssemblyReference.cache
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.AssemblyInfoInputs.cache
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.AssemblyInfo.cs
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.csproj.CoreCompileInputs.cache
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.dll
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/refint/Lab2_components.dll
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.pdb
