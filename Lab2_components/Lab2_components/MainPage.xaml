@@ -32,6 +32,16 @@
         <Label Text="Просто текст5" TextColor="White" FontSize="20" Margin="5"/>
         <Label Text="Просто текст6"  TextColor="White" FontSize="20" Margin="5"/>
                  </StackLayout>
+
+             <Frame x:Name="spw" BackgroundColor="DimGray" IsVisible="False" Grid.Column="1" Grid.Row="0">
+                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label FontSize="15" Text="Текст7" TextColor="White" />
+            </StackLayout>
+
+             </Frame>
+            <Button BackgroundColor="LightGreen" Clicked="Button_Click" Grid.Column="1" Grid.Row="0" x:Name="btn" Text="Нажми меня!" HorizontalOptions="End" VerticalOptions="End" />
+
+      
         </Grid>
 
 
