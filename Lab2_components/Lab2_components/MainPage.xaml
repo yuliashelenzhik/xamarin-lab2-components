@@ -15,9 +15,23 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Azure" />
+            <!--<BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Azure" />-->
+            <BoxView BackgroundColor="Azure" Margin="0,0,-10,0" />
             <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="DarkOliveGreen" />
             <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#142561" Margin="0,-10,0,0"/>
+
+             <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+        <Entry Text="Просто текст1" FontSize="20"  Margin="5" />
+        <Entry Text="Просто текст2" FontSize="20"  Margin="5" />
+        <Entry Text="Просто текст3"  FontSize="20"  Margin="5"/>
+                 </StackLayout>
+
+             <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label Text="Просто текст4" TextColor="White" FontSize="20" Margin="5"/>
+        <Label Text="Просто текст5" TextColor="White" FontSize="20" Margin="5"/>
+        <Label Text="Просто текст6"  TextColor="White" FontSize="20" Margin="5"/>
+                 </StackLayout>
         </Grid>
 
 
