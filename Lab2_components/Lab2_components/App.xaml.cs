@@ -10,7 +10,7 @@ namespace Lab2_components
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart ()

@@ -13,3 +13,6 @@
 /Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.dll
 /Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/refint/Lab2_components.dll
 /Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Lab2_components.pdb
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Page1.xaml.g.cs
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Page2.xaml.g.cs
+/Users/yuliayuste/Projects/Lab2_components/Lab2_components/Lab2_components/obj/Debug/netstandard2.0/Page3.xaml.g.cs
