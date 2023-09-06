@@ -7,10 +7,11 @@ namespace Lab2_components
 {	
 	public partial class Page3 : ContentPage
 	{	
-		public Page3 ()
+		public Page3 (string data)
 		{
 			InitializeComponent ();
-		}
+            Label1.Text = data;
+        }
 	}
 }
 

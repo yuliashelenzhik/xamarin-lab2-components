@@ -6,6 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
     <Label Text="PAGE 1" Background="Black" FontSize="30" TextColor="AliceBlue" HorizontalOptions="Center"/>
+    <Label x:Name="Label1" Text="{Binding}" Background="Black" FontSize="30" TextColor="AliceBlue" HorizontalOptions="Center"/>
             </StackLayout>
     </ContentPage.Content>
 </ContentPage>

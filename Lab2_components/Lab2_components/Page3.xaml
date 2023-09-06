@@ -4,8 +4,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Lab2_components.Page3">
     <ContentPage.Content>
+        <StackLayout>
     <Label Text="PAGE 3" FontSize="30" TextColor="LightGreen" HorizontalOptions="Center"/>
-        
+    <Label x:Name="Label1" FontSize="30" TextColor="LightGreen" HorizontalOptions="Center"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
 
