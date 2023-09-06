@@ -5,7 +5,81 @@
 
     <StackLayout>
 
-         <Grid>
+        <Grid>
+            <Grid>
+                 <Grid.ColumnDefinitions> 
+<ColumnDefinition Width="60"/>
+<ColumnDefinition Width="*"/> </Grid.ColumnDefinitions> <Grid.RowDefinitions>
+<RowDefinition Height="60"/>
+     <RowDefinition Height="*"/>
+</Grid.RowDefinitions>
+
+<Button BackgroundColor="#d8e2dc" TextColor="#9d8189" Grid.Column="0" Grid.Row="0" x:Name="btn1" FontSize="24" Text="☰" Clicked="Btn1_Click"/>
+
+
+<Grid Grid.Row="1" Grid.ColumnSpan="2">
+
+     <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+    <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Azure" />
+            <BoxView BackgroundColor="Azure" Margin="0,0,-10,0" />
+            <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="DarkOliveGreen" />
+            <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#142561" Margin="0,-10,0,0"/>
+
+    <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry FontSize="20" Margin="5" Text="Просто текст1" />
+            <Entry FontSize="20" Margin="5" Text="Просто текст2" />
+            <Entry FontSize="20" Margin="5" Text="Просто текст3" />
+        </StackLayout>
+
+<!--SplitView Menu-->
+    <Frame x:Name="spw1" IsVisible="False" Grid.Column="0" Grid.Row="0" >
+       <ListView SelectionMode="Single">
+    <ListView.ItemsSource>
+        <x:Array Type="{x:Type x:String}">
+            <x:String>Первый пункт</x:String>
+            <x:String>Второй пункт</x:String>
+            <x:String>Трутий пункт</x:String>
+        </x:Array>
+    </ListView.ItemsSource>
+</ListView>
+
+    </Frame>
+
+    <StackLayout Grid.ColumnSpan="2" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label FontSize="20" TextColor="White" Margin="5" Text="Просто текст4" />
+            <Label FontSize="20" TextColor="White" Margin="5" Text="Просто текст5" />
+            <Label FontSize="20" TextColor="White" Margin="5" Text="Просто текст6" />
+        </StackLayout>
+
+    <!--SplitView Text 7-->
+
+     <Frame x:Name="spw" BackgroundColor="DimGray" IsVisible="False " Grid.Column="1" Grid.Row="0">
+                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label FontSize="15" Text="Текст7" TextColor="White" />
+            </StackLayout>
+
+             </Frame>
+            <Button BackgroundColor="LightGreen" Clicked="Button_Click" Grid.Column="1" Grid.Row="0" x:Name="btn" Text="Нажми меня!" HorizontalOptions="End" VerticalOptions="End" />
+
+</Grid>
+                
+
+
+               
+
+
+            </Grid>
+
+         <!--<Grid>
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="3*"/>
@@ -15,7 +89,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!--<BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Azure" />-->
+            <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Azure" />
             <BoxView BackgroundColor="Azure" Margin="0,0,-10,0" />
             <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="DarkOliveGreen" />
             <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#142561" Margin="0,-10,0,0"/>
@@ -42,8 +116,8 @@
             <Button BackgroundColor="LightGreen" Clicked="Button_Click" Grid.Column="1" Grid.Row="0" x:Name="btn" Text="Нажми меня!" HorizontalOptions="End" VerticalOptions="End" />
 
       
-        </Grid>
-
+        </Grid>-->
+            </Grid>
 
     </StackLayout>
 

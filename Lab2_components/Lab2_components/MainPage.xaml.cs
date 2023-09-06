@@ -19,6 +19,12 @@ namespace Lab2_components
         {
             spw.IsVisible = !spw.IsVisible;
         }
+
+
+        private void Btn1_Click(object sender, EventArgs e)
+        {
+            spw1.IsVisible = !spw1.IsVisible;
+        }
     }
 }
 

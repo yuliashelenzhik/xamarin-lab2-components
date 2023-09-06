@@ -1,6 +1,31 @@
 ﻿<Properties StartupConfiguration="{47D633CF-2A8D-4A2D-ACFD-F8BDDF8992D3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab2_components/Lab2_components/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Lab2_components/Lab2_components/MainPage.xaml.cs" Line="29" Column="2" />
+      <File FileName="Lab2_components/Lab2_components/MainPage.xaml" Line="44" Column="41" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab2_components" expanded="True">
+            <Node name="Lab2_components">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lab2__components.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Lab2__components FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.1.2" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Lab2__components.Android FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Lab2__components.Android PreferredExecutionTarget="Android.Pixel_2_API_29_2" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_2_API_29_2" />
 </Properties>
